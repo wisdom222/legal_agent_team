@@ -2,7 +2,7 @@
 Legal Reviewer Agent
 法律合规审查员
 """
-from .base_reviewer import BaseReviewerAgent
+
 from ..models.review_models import ReviewerType, IssueCategory
 
 
