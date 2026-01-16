@@ -2,7 +2,7 @@
 Reranker 客户端
 集成 Cohere/Jina Reranker API 进行结果重排序
 """
-
+from typing import List, Optional, Tuple  # <--- 添加 Tuple
 import asyncio
 from typing import List, Optional, Literal
 import time
