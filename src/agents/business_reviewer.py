@@ -2,7 +2,7 @@
 Business Reviewer Agent
 商业逻辑审查员
 """
-from .base_reviewer import BaseReviewerAgent
+
 from ..models.review_models import ReviewerType, IssueCategory
 
 
