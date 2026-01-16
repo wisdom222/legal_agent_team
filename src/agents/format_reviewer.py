@@ -2,7 +2,7 @@
 Format Reviewer Agent
 格式规范审查员
 """
-
+from .base_reviewer import BaseReviewerAgent
 from ..models.review_models import ReviewerType, IssueCategory
 
 
