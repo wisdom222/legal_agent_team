@@ -1,0 +1,13 @@
+from agno.agent import Agent
+from typing import Optional
+
+class BaseReviewerAgent(Agent):
+    """Reviewer Agent 基类"""
+    
+    def __init__(self, name: str = "Reviewer", role: str = "Reviewer", instructions: Optional[list] = None):
+        super().__init__(
+            name=name,
+            role=role,
+            instructions=instructions or [],
+            markdown=True
+        )
