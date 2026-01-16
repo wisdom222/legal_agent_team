@@ -4,7 +4,7 @@ Risk Reviewer Agent
 """
 
 from ..models.review_models import ReviewerType, IssueCategory
-
+from .reviewer_agent import BaseReviewerAgent
 
 class RiskReviewerAgent(BaseReviewerAgent):
     """
