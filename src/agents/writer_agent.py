@@ -321,7 +321,7 @@ class WriterAgent:
             draft_id=draft_id,
             document_id=document.get("id", ""),
             document_title=document.get("title", ""),
-            content_summary=f"对《{document.get('title', '')》的初步分析",
+            content_summary=f"对《{document.get('title', '')}》的初步分析",
             key_clauses=[],
             initial_assessment="草稿生成遇到问题，使用简化版本",
             risk_indicators=[],
