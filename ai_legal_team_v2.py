@@ -328,7 +328,7 @@ def main():
         export_formats = st.multiselect(
             "导出格式",
             ["json", "pdf", "docx"],
-            default=["json", "md"]
+            default=["json"]
         )
 
     with col3:
