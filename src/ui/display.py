@@ -97,7 +97,7 @@ class ReportDisplay:
         st.subheader("📈 风险分布")
 
         # 风险统计可视化
-        risk_cols = st.columns(len(summary.risk_summary)))
+        risk_cols = st.columns(len(summary.risk_summary))
         for i, (level, count) in enumerate(summary.risk_summary.items()):
             with risk_cols[i]:
                 color = self._get_risk_color(level)
