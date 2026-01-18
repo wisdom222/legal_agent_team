@@ -60,6 +60,3 @@ isort>=5.13.0
 # Utilities
 python-dotenv>=1.0.0
 pyyaml>=6.0.0
-ddgs
-duckduckgo-search>=5.0.0
-agno
